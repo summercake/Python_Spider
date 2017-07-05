@@ -2,7 +2,7 @@
 import urllib
 
 url = "http://www.baidu.com"
-wd = {"wd": "传智播客"}
+wd = {"wd": "superman"}
 
 # urlencode() 是对链接内容进行 URL 编码, 该方法接收的是字典
 code = urllib.urlencode(wd)
